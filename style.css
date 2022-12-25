@@ -13,17 +13,21 @@ header{
     height: 66px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
+.rightbox{
+   display: flex;
+  margin: 12px;
+}
 
 .left img{
   width:32px;
   height:23px;
 }
 .container{
- 
-  padding:0 10vw;
-  
-}
+ padding:0 10vw;
+  }
+.containerHeader{
+ padding:0 10vw;
+  }
 nav{
   font-size: 12px;
       padding-top: 14px;
@@ -48,7 +52,51 @@ nav ul li{
   margin:12px 0;
 }
 .itemImg{
-  width: 20vw;
+  width: 11.5vw;
     margin: 6px 12px;
   
+}
+footer{
+  padding:23px;
+  text-align:center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tall{
+  min-height:40vh;
+}
+@media (max-width: 450px){
+  .search {
+    width: 72vw;
+  }
+}
+
+@media (max-width: 1550px) {
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+}
+  .search {
+    width: 72vw;
+  }
+  .containerHeader{
+    padding: 0 2vw;
+}
+header{
+  background:white;
+  height: 122px;
+}
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.right{
+  flex-direction:column;
+}
+.rightbox{
+   display: flex;
+  margin: 12px;
+}
 }
