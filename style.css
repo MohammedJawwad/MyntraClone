@@ -60,6 +60,8 @@ footer{
   padding:23px;
   text-align:center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color:green;
+  background:darkgray;
 }
 .tall{
   min-height:40vh;
